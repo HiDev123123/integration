@@ -1,0 +1,57 @@
+.box{
+  /* border: 1px solid; */
+  margin: 0;
+  padding: 0%;
+  height: 330px;
+}
+table {
+  border-collapse: collapse;
+  width: 95%;
+  margin: auto;
+  font-size: x-small;
+  font-weight: bold;   
+}
+
+thead th {
+  border-top: 1px solid;
+  border-bottom: 1px solid;
+  /* border: 1px solid; */
+}
+tbody{
+  /* height: 300px; */
+  /* border: 1px solid; */
+}
+tbody tr td{
+  height: 20px;
+}
+
+
+/* end */
+
+.thank{
+  margin-top: 50px ;
+  display: flex;
+  justify-content: space-around;
+  font-size: small;
+  /* width: 400px; */
+}
+
+
+
+
+
+
+
+
+
+
+/* BOOTSTRAP */
+.c{
+  text-align: center;
+}
+.l{
+  text-align: left;
+}
+.pd{
+  padding-left: 10px;
+}

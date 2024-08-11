@@ -1,0 +1,58 @@
+ body{
+   padding: 0;
+   margin: 10px;
+   /* border: 1px solid; */
+   font: Serif;
+ }
+ .bill-body{
+   height: 750px;
+   width: 500px;
+   border: 1px solid;
+   padding: 0 30px;
+ }
+  
+ .top div h6{
+   margin: 0 ;   
+ }
+
+
+
+ /* COPY */
+ p {
+  margin-top: -15px;
+}
+.add > h5 {
+  margin: 0%;
+}
+h6 {
+  margin: 0;
+}
+.sec {
+  display: flex;
+  justify-content: space-between;
+}
+.sec h5 {
+  margin-bottom: 0%;
+}
+
+.sec-last {
+  text-align: right;
+}
+.gap {
+  padding: 10px;
+}
+
+
+/* printing */
+@media print {
+  /* Style for the content to be included in print */
+  main {
+    display: block;
+  }
+  main {
+    /* display: none; */
+  }
+  .pri {
+    display: none;
+  }
+}
